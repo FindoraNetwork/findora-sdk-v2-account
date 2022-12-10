@@ -256,6 +256,18 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@findora-network/findora-sdk-v2-asset@https://github.com/FindoraNetwork/findora-sdk-v2-asset.git#develop":
+  version "0.1.0"
+  resolved "https://github.com/FindoraNetwork/findora-sdk-v2-asset.git#02ad49446a50c29666cd2fecfa1775978002e8af"
+  dependencies:
+    "@findora-network/findora-sdk-v2-core" "https://github.com/FindoraNetwork/findora-sdk-v2-core.git#develop"
+    "@findora-network/findora-sdk-v2-network" "https://github.com/FindoraNetwork/findora-sdk-v2-network.git#develop"
+    "@findora-network/findora-sdk-v2-utxo" "https://github.com/FindoraNetwork/findora-sdk-v2-utxo.git#develop"
+    axios "^0.21.1"
+    axios-retry "^3.1.9"
+    dotenv "^10.0.0"
+    json-bigint "^1.0.0"
+
 "@findora-network/findora-sdk-v2-core@https://github.com/FindoraNetwork/findora-sdk-v2-core.git#develop":
   version "0.1.0"
   resolved "https://github.com/FindoraNetwork/findora-sdk-v2-core.git#921bfee748028a33aebb26a1be97cd92c61be6fe"
