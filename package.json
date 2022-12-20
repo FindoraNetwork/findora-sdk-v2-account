@@ -42,10 +42,10 @@
     "typescript-json-schema": "^0.50.1"
   },
   "dependencies": {
+    "@findora-network/findora-sdk-v2-asset": "https://github.com/FindoraNetwork/findora-sdk-v2-asset.git#develop",
     "@findora-network/findora-sdk-v2-core": "https://github.com/FindoraNetwork/findora-sdk-v2-core.git#develop",
     "@findora-network/findora-sdk-v2-network": "https://github.com/FindoraNetwork/findora-sdk-v2-network.git#develop",
     "@findora-network/findora-sdk-v2-utxo": "https://github.com/FindoraNetwork/findora-sdk-v2-utxo.git#develop",
-    "@findora-network/findora-sdk-v2-asset": "https://github.com/FindoraNetwork/findora-sdk-v2-asset.git#develop",
     "axios": "^0.21.1",
     "axios-retry": "^3.1.9",
     "dotenv": "^10.0.0",
